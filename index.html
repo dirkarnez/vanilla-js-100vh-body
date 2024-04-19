@@ -6,6 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
 <style>
+
+/* 
+    https://allthingssmitty.com/2020/05/11/css-fix-for-100vh-in-mobile-webkit/
+    this should be enough
+body {
+  min-height: 100vh;
+  /* mobile viewport bug fix */
+  min-height: -webkit-fill-available;
+}
+
+html {
+  height: -webkit-fill-available;
+}
+ */
+    
 body {
   background-color: lightblue;
   height: auto !important;
